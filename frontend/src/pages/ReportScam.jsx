@@ -29,7 +29,7 @@ function ReportScam() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/reports",
+        "https://scam-message-detector-dadr.onrender.com/api/reports",
         {
           method: "POST",
           headers: {

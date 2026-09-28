@@ -16,7 +16,7 @@ function AdminDashboard() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        "http://localhost:5000/api/admin/dashboard",
+        "https://scam-message-detector-dadr.onrender.com/api/admin/dashboard",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -49,7 +49,7 @@ function AdminDashboard() {
   const fetchReports = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/reports"
+        "https://scam-message-detector-dadr.onrender.com/api/reports"
       );
 
       const data = await response.json();
@@ -74,7 +74,7 @@ function AdminDashboard() {
       const token = localStorage.getItem("token");
 
       const response = await fetch(
-        `http://localhost:5000/api/reports/${reportId}/${action}`,
+        `https://scam-message-detector-dadr.onrender.com/api/reports/${reportId}/${action}`,
         {
           method: "PUT",
           headers: {

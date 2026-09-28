@@ -14,7 +14,7 @@ function ScamReports() {
     const fetchReports = async () => {
       try {
         const response = await fetch(
-          "http://localhost:5000/api/reports"
+          "https://scam-message-detector-dadr.onrender.com/api/reports"
         );
 
         const data = await response.json();
