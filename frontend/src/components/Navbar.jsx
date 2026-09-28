@@ -36,6 +36,10 @@ function Navbar() {
             Scam Reports
           </NavLink>
 
+          <NavLink to="/report-scam" className="nav-link">
+            Report Scam
+          </NavLink>
+
           <NavLink to="/profile" className="nav-link">
             Profile
           </NavLink>
