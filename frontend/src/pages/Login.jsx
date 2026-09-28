@@ -20,7 +20,7 @@ function Login() {
 
     try {
       const response = await fetch(
-        "https://scam-message-detector-dadr.onrender.com/api/auth/login",
+        "https://scam-message-detector-1.onrender.com/api/auth/login",
         {
           method: "POST",
 

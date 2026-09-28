@@ -19,7 +19,7 @@ function Register() {
 
     try {
       const response = await fetch(
-        "https://scam-message-detector-dadr.onrender.com/api/auth/register",
+        "https://scam-message-detector-1.onrender.com/api/auth/register",
         {
           method: "POST",
 

@@ -13,7 +13,7 @@ function History() {
     const fetchHistory = async () => {
       try {
         const response = await fetch(
-          `https://scam-message-detector-dadr.onrender.com/api/analysis/history/${user.id}`
+          `https://scam-message-detector-1.onrender.com/api/analysis/history/${user.id}`
         );
 
         const data = await response.json();

@@ -29,7 +29,7 @@ function Analyze() {
 
     try {
       const response = await fetch(
-        "https://scam-message-detector-dadr.onrender.com/api/analysis/analyze",
+        "https://scam-message-detector-1.onrender.com/api/analysis/analyze",
         {
           method: "POST",
           headers: {
